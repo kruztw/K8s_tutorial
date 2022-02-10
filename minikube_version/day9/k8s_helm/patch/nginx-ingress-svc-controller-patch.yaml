@@ -1,0 +1,7 @@
+spec:
+  ports:
+  - nodePort: 31100
+    port: 8888
+    name: echo-server
+    targetPort: 7777
+  type: NodePort
