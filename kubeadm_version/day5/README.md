@@ -12,7 +12,7 @@ kubectl describe deployment echoserver
 # test
 kubectl get pods
 kubectl delete pod <running_pod>
-kubectl get pods                    # still has three pods (2 running) but the pod name is different
+kubectl get pods                    # still has three pods (3 running) but the pod name is different
 
 # delete
 kubectl delete -f ./deployment.yaml
