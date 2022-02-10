@@ -29,9 +29,9 @@ IP Family Policy:         SingleStack
 IP Families:              IPv4
 IP:                       10.102.224.246
 IPs:                      10.102.224.246
-Port:                     <unset>  8888/TCP                                             <-- node1: <unset> ; node2: 8888 (run "nc 10.102.224.246 8888" in node2)
+Port:                     <unset>  8888/TCP                                             <-- run "nc 10.102.224.246 8888" in worker node
 TargetPort:               1234/TCP
-NodePort:                 <unset>  30000/TCP                                            <-- node1: <unset> ; node2: 30000 (run "nc 192.168.11.102 30000")
+NodePort:                 <unset>  30000/TCP                                            <-- run "nc 192.168.11.[101/102] 30000"
 Endpoints:                10.240.104.2:1234,10.240.166.129:1234,10.240.166.130:1234     <-- three containers
 Session Affinity:         None
 External Traffic Policy:  Cluster
