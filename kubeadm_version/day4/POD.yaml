@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: echoserver
+spec:
+  containers:
+  - name: echo-server
+    image: kruztw/echo_server:latest
+    ports:
+    - containerPort: 1234                # In Dockerfile: ./server 1234

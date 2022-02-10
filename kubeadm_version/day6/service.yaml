@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: echo-service
+spec:
+  type: NodePort
+  ports:
+  - port: 8888             # service port
+    nodePort: 30000
+    protocol: TCP
+    targetPort: 1234       # container port
+  selector:
+    app: server            # the pod with label app:server

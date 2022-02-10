@@ -1,0 +1,9 @@
+spec:
+  ports:
+  - nodePort: 31100
+    port: 8888
+    name: echo-server
+  type: NodePort
+
+  #externalIPs:
+  #- 192.168.10.101
