@@ -23,7 +23,7 @@ I strongly recommend the readers to study the above documents, and publish an HT
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 ```
 
-`Install NGINX Ingress on kube-system namespace`
+`Install NGINX Ingress on ingress-nginx namespace`
 
 ```shell=
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.1/deploy/static/provider/baremetal/deploy.yaml
