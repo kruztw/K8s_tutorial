@@ -21,6 +21,7 @@ kubectl delete -f ./POD.yaml
 
 ## result
 
+```
 Name:         echoserver
 Namespace:    default
 Priority:     0
@@ -71,4 +72,5 @@ Events:
   Normal  Pulled     20s   kubelet            Successfully pulled image "kruztw/echo_server:latest" in 4.172375193s
   Normal  Created    20s   kubelet            Created container echo-server
   Normal  Started    20s   kubelet            Started container echo-server
+  ```
 
